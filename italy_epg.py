@@ -78,7 +78,7 @@ print("Opening/creating xml file...")
 f = open("italy_epg.xmltv","w")
 print("Writing XML header")
 f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-f.write('  <tv source-info-url="" generator-info-name="RAI EPG Generator : on {}" source-info-name="Big Vs generator">\n'.format(dt.datetime.now()))
+f.write('  <tv source-info-url="" generator-info-name="Italy EPG Generator : on {}" source-info-name="Big Vs generator">\n'.format(dt.datetime.now()))
 
 
 ### write all the channel headers
